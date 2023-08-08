@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{5e9d9e03-98ee-4f42-9b72-18ad7b49079a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>{bbf24e6a-fa5b-4181-8a13-17ca0858e960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models">
+      <UniqueIdentifier>{f2ffbf7c-a6be-448f-87c6-741d86f0621c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{7f920b2f-db3d-4671-81ab-d9c0562864b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OurSolarSystem.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="RenderingGame.cpp" />
+    <ClCompile Include="PointLightMaterial.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OurSolarSystem.h" />
+    <ClInclude Include="RenderingGame.h" />
+    <ClInclude Include="PointLightMaterial.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\PlutoMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\NeptuneMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\SaturnMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\SunMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\UranusMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\VenusMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\JupiterMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\MarsMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\MercuryMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\MoonMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\SpaceBackdrop.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\EarthColorMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\EarthSpecularMap.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\NoReflection.dds">
+      <Filter>Content\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Models\DirectionalLightProxy.obj.bin">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\Sphere.obj.bin">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

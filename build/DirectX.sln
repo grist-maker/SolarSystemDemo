@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Solar System", "..\source\Lesson5.3\Lesson5_3.vcxproj", "{9469ACCB-C63B-422C-BB0C-E1C306958056}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6} = {8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{67DD0724-C093-4DE4-ADE2-83C11C0278F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Shared", "..\source\Library.Shared\Library.Shared.vcxitems", "{45D41ACC-2C3C-43D2-BC10-02AA73FFC7C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Desktop", "..\source\Library.Desktop\Library.Desktop.vcxproj", "{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{3CBFAC7C-8F5B-42E8-BBBA-7BD9D99C1CE1}"
+	ProjectSection(SolutionItems) = preProject
+		CustomBuildStep.props = CustomBuildStep.props
+		Shared.props = Shared.props
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelPipeline", "..\source\Tools\ModelPipeline\ModelPipeline.vcxproj", "{A178C969-D639-489D-9A19-CD24C2930F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Debug|Win32.Build.0 = Debug|Win32
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Debug|x64.ActiveCfg = Debug|x64
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Debug|x64.Build.0 = Debug|x64
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Release|Win32.ActiveCfg = Release|Win32
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Release|Win32.Build.0 = Release|Win32
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Release|x64.ActiveCfg = Release|x64
+		{9469ACCB-C63B-422C-BB0C-E1C306958056}.Release|x64.Build.0 = Release|x64
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Debug|Win32.Build.0 = Debug|Win32
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Debug|x64.ActiveCfg = Debug|x64
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Debug|x64.Build.0 = Debug|x64
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Release|Win32.ActiveCfg = Release|Win32
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Release|Win32.Build.0 = Release|Win32
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Release|x64.ActiveCfg = Release|x64
+		{8F60BA9C-AAB6-47E4-BD36-DCDEBF4D9AE6}.Release|x64.Build.0 = Release|x64
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Debug|Win32.Build.0 = Debug|Win32
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Debug|x64.ActiveCfg = Debug|x64
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Debug|x64.Build.0 = Debug|x64
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Release|Win32.ActiveCfg = Release|Win32
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Release|Win32.Build.0 = Release|Win32
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Release|x64.ActiveCfg = Release|x64
+		{A178C969-D639-489D-9A19-CD24C2930F9F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A178C969-D639-489D-9A19-CD24C2930F9F} = {67DD0724-C093-4DE4-ADE2-83C11C0278F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {408ECEC4-0638-440D-824C-A07D64FC75C4}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\source\Library.Shared\Library.Shared.vcxitems*{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}*SharedItemsImports = 9
+		..\source\Library.Shared\Library.Shared.vcxitems*{8f60ba9c-aab6-47e4-bd36-dcdebf4d9ae6}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
